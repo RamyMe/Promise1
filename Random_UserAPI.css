@@ -1,0 +1,23 @@
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .user-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+html{
+    background-color: cadetblue;
+}
+
